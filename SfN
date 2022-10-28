@@ -1,0 +1,102 @@
+---
+title: Mentors like us! CoB-KIBM Scholars Program at UC San Diego
+author:
+  - name: Minerva Contreras
+    affil: 1,3
+  - name: Julia Gorman
+    affil: 1
+  - name: Sana Ali
+    affil: 2
+  - name: Jillybeth Burgado
+    affil: 1,3
+  - name: Hilario Vasquez
+    affil: 1
+  - name: Christian Cazares
+    affil: 3
+  - name: Maribel Patiño
+    affil: 1,3
+affiliation:
+  - num: 1
+    address: The Neurosciences Graduate Program, University of California San Diego, La Jolla, CA, USA
+  - num: 2
+    address: Department of Cognitive Science, University of California San Diego, La Jolla, CA, USA
+  - num: 3
+    address: Salk Institute of Biological Sciences, La Jolla, CA, USA
+    
+# authorship - make sure affil is correct
+
+column_numbers: 3
+logoright_name:  "cob_kibmlogo.png"
+logoleft_name: "UCSD_Seal.png"
+output: 
+  posterdown::posterdown_html:
+    self_contained: true
+knit: pagedown::chrome_print
+bibliography: packages.bib
+css: style.css
+
+primary_colour: "#9092D8"
+accent_colour: "#035AA6"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(icons)
+library(rsvg)
+```
+
+# Who we are
+
+Academia has a long way to go in uplifting and promoting minorities and people of color, as the institutional barriers plague our educational system to this day. **Colors of the Brain** (CoB) is a UC San Diego student organization that was founded in 2016 to diversify STEM graduate education by providing undergraduate students from **historically underrepresented backgrounds with invested graduate student mentors** who have gone through the transition into Ph.D. or M.D./Ph.D research programs. 
+
+Our organization  aims to provide **direct mentorship** and resources to underrepresented minority students interested in STEM fields. All of our graduate mentors come from **underrepresented and/or first-generation backgrounds**, and we are all motivated by the desire to give other students advice and access to the things we struggled with ourselves.
+
+Since 2020, CoB has collaborated with the Kavli Institute for Brain and Mind to create the **CoB-KIBM Scholars Program**, a paid, full-time Summer research position within a UC San Diego or Salk laboratory that offers personalized mentorship for navigating academic research.
+
+# What we do
+
+In CoB, we host **tailored workshops** and provide a **supportive environment** where undergraduate students can get assistance with reviewing and editing their resumes/CVs and applications for various academic opportunities, ranging from conference travel awards and research positions to graduate program applications. We also create a **social infrastructure and community** where students can find mentors, discuss projects, or just decompress about academic life.
+
+**Figure 1**: *CoB Recruitment Flyers for Workshops*  
+
+```{r, echo = FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics("CoBNGPFlyer.png")
+
+```
+
+# CoB-KIBM
+
+**Figure 2**: *CoB-KIBM Summer Research Program 2021 Cohort & Mentors*  
+
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("cohort2021.jpg")
+
+```
+
+Our scholars presented on a diverse range of neuroscience fields. General research interests include cognitive, behavioral, cellular/molecular and developmental. 
+
+**Quotes from 2021 cohort:**
+
+"I think this was a wonderful program and exactly what I needed to kickstart me in the right direction for my future! Thank you so much for all your help"
+
+"It is the best summer program I have ever attended." 
+
+**Figure 3**: *CoB-KIBM Summer Research Program 2022 Cohort & Mentors*  
+
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("cobkibm.jpg")
+
+```
+
+In 2022, we were able to accept 6 scholars in our program! They were interested in topics such as X, Y and Z. 
+
+**Quotes from 2022 cohort:** 
+
+# Next Steps
+
+Our organizations goal is to constantly be improving and evolving. We have expanded our **leadership roles** to include multiple people from varying disciplines (i.e., neuroscience, cognitive science and experimental psychology). We are also hoping to lock down additional funding for our summer program to ensure **successful research projects and appropriate living stipends**. We aim to have a broader impact and to reach diverse audiences throughout the UC San Diego community by promoting our organization at conferences, outreach, and social media.  
+
+
+# Find us!
+`r icon_style(icons::fontawesome("twitter"), scale = 1.5, fill = "#9092D8")`Follow us on Twitter UCSD_CoB
