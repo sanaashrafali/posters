@@ -25,7 +25,7 @@ affiliation:
     
 # authorship - make sure affil is correct
 
-column_numbers: 3
+column_numbers: 4
 logoright_name:  "cob_kibmlogo.png"
 logoleft_name: "UCSD_Seal.png"
 output: 
@@ -58,45 +58,100 @@ Since 2020, CoB has collaborated with the Kavli Institute for Brain and Mind to 
 
 In CoB, we host **tailored workshops** and provide a **supportive environment** where undergraduate students can get assistance with reviewing and editing their resumes/CVs and applications for various academic opportunities, ranging from conference travel awards and research positions to graduate program applications. We also create a **social infrastructure and community** where students can find mentors, discuss projects, or just decompress about academic life.
 
-**Figure 1**: *CoB Recruitment Flyers for Workshops*  
+# Find us!
 
-```{r, echo = FALSE, out.width='65%', fig.align='center'}
-knitr::include_graphics("CoBNGPFlyer.png")
+<div align="center">
+`r icon_style(icons::fontawesome("laptop"), scale = 1.5, fill = "#9092D8")` Website: colorsofthebrain.com
 
-```
+`r icon_style(icons::fontawesome("twitter"), scale = 1.5, fill = "#9092D8")` Twitter: UCSD_CoB
+
+`r icon_style(icons::fontawesome("envelope"), scale = 1.5, fill = "#9092D8")` Gmail: colorsofthebrain
 
 # CoB-KIBM
 
-**Figure 2**: *CoB-KIBM Summer Research Program 2021 Cohort & Mentors*  
-
+**Figure 1**: *CoB-KIBM Summer Research Program 2021 Cohort & Mentors*  
 ```{r, echo = FALSE, out.width='100%'}
 knitr::include_graphics("cohort2021.jpg")
 
 ```
 
-Our scholars presented on a diverse range of neuroscience fields. General research interests include cognitive, behavioral, cellular/molecular and developmental. 
+<div align="center"> Our scholars presented on a diverse range of neuroscience fields. General research interests include cognitive, behavioral, cellular/molecular and developmental. 
 
-**Quotes from 2021 cohort:**
+`r icon_style(icons::fontawesome("comments"), scale = 1.5, fill = "#9092D8")` **Quotes from 2021 cohort:**
 
 "I think this was a wonderful program and exactly what I needed to kickstart me in the right direction for my future! Thank you so much for all your help"
 
 "It is the best summer program I have ever attended." 
 
-**Figure 3**: *CoB-KIBM Summer Research Program 2022 Cohort & Mentors*  
-
+**Figure 2**: *CoB-KIBM Summer Research Program 2022 Cohort & Mentors*  
 ```{r, echo = FALSE, out.width='100%'}
 knitr::include_graphics("cobkibm.jpg")
 
 ```
 
-In 2022, we were able to accept 6 scholars in our program! They were interested in topics such as X, Y and Z. 
+In 2022, we were able to accept 6 scholars in our program! 
 
-**Quotes from 2022 cohort:** 
+`r icon_style(icons::fontawesome("comments"), scale = 1.5, fill = "#9092D8")` **Quotes from 2022 cohort:** 
 
-# Next Steps
+"My favorite experience was building a network of scientists."
 
-Our organizations goal is to constantly be improving and evolving. We have expanded our **leadership roles** to include multiple people from varying disciplines (i.e., neuroscience, cognitive science and experimental psychology). We are also hoping to lock down additional funding for our summer program to ensure **successful research projects and appropriate living stipends**. We aim to have a broader impact and to reach diverse audiences throughout the UC San Diego community by promoting our organization at conferences, outreach, and social media.  
+"It was so validating that my mentors trusted me to work on parts of my project individually."
 
+"I loved the program and it was amazing to get connected with other scholars."
+</div>
 
-# Find us!
-`r icon_style(icons::fontawesome("twitter"), scale = 1.5, fill = "#9092D8")`Follow us on Twitter UCSD_CoB
+# 2023 CoB-KIBM Scholars Summer Research Program
+
+<div align="center"> *General Program Overview* </div>
+
+**Cohort**: Six scholars will be selected based on demonstrated financial need and clearly articulated excitement for neuroscience research.
+
+**Stipend**: Each scholar will be provided a $7,000 stipend for the entire 10-week research period.
+
+**Faculty Mentors**: Each scholar will be paired with a Faculty Mentor for the duration of the 10-week research period. These Faculty Mentors will be pre-selected by the CoB graduate mentors to ensure they can provide a constructive and positive research environment.
+
+**Mentorship Pods**: Each scholar will be paired with 3 Colors of the Brain Graduate Student Mentors. Graduate Mentors will span a variety of fields within the brain sciences and from different stages of their graduate careers. A budget of $100 is given to these mentorship pods to facilitate casual meet-ups for advising.
+
+**Bootcamp**: Scholars will participate in an evening of neuroscience related activities in the first week of the program, which will include programming and histology tutorials. This will serve as a program orientation and an early opportunity to familiarize scholars with each other.
+
+**Workshops**: Scholars will attend a series of workshops on scientific writing, research, and applying to graduate school.
+
+- Examples: How to Read a Research Paper; Basic Computational Methods; How to Make a Scientific Research Poster; Applying to Paid Research Opportunities for Undergraduates; Careers in STEM Panel. 
+
+**Community**: The program will provide social and community building events throughout the Summer. Scholars will continue to receive academic support and mentorship from Colors of the Brain throughout the remainder of their undergraduate education. 
+
+**Science Communication**: Opportunities to practice science communication skills by presenting at the CoB-KIBM Scholars Program Summer Research Symposium.
+
+**Retention**: Assistance will be given to KIBM-CoB scholars in their future applications for other individual research fellowships at UC San Diego. 
+
+**Eligibility**: 
+
+- Have at least a 2.5 GPA
+- Have demonstrable interest in pursuing research as a career.
+- Intend to apply to Ph.D. or M.D./Ph.D. programs relevant to the brain sciences.
+- Are a rising sophomore, junior, or senior enrolled at UC San Diego.
+- Are from one or more of the following groups:
+Racial and ethnic groups underrepresented in the biomedical sciences (Black or African American, Hispanic, Latin American, Native American or Alaska Native, Native Hawaiian and other Pacific Islanders); Individuals with disabilities; and Individuals from disadvantaged backgrounds.
+- Have little or no previous research experience. Preference will be given to applicants with no prior academic research experience.
+- Open to U.S. citizens, permanent residents, and students that graduated from High School in the U.S. (includes students born abroad, undocumented, and/or current or past DACA recipients).
+ 
+**Selection Process**: 4 phases
+
+1. Application Opens: Start of February – Mid March
+2. Review of Written Statements: Mid-March to Start of April
+3. Interviews: Start of April – Mid-April
+4. Notification of Award: By end of April
+ 
+**Application Components**
+
+**Written Statements**:
+Prospective fellows will be required asnwer several short answer prompts. Some examples include:
+<div align="center">
+`r icon_style(icons::fontawesome("question-circle"), scale = 1.5, fill = "#9092D8")` $~~$ Please address your membership to one or more of the racial and ethnic groups underrepresented in the biomedical sciences. (100 word limit)
+
+`r icon_style(icons::fontawesome("flask"), scale = 1.5, fill = "#9092D8")` $~~$ Do you have any prior research experience (e.g. working in a lab as an undergraduate research assistant)? (100 word limit)
+
+`r icon_style(icons::fontawesome("dollar-sign"), scale = 1.5, fill = "#9092D8")` $~~$ Please describe how financial support from the CoB-KIBM Scholars program would significantly enhance your ability to participate in research. (250 word limit) 
+ 
+**Interviews**:
+We select 10-15 students for 15-30 minute in-person or virtual interviews. Applicants' interest and commitment to research are evaluated.
