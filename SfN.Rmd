@@ -1,25 +1,25 @@
 ---
 title: Mentors like us! CoB-KIBM Scholars Program at UC San Diego
 author:
-  - name: Minerva Contreras
-    affil: 1,3
-  - name: Julia Gorman
-    affil: 1
   - name: Sana Ali
+    affil: 1
+  - name: Minerva Contreras 
+    affil: 2,3
+  - name: Julia Gorman
     affil: 2
   - name: Jillybeth Burgado
-    affil: 1,3
+    affil: 2,3
   - name: Hilario Vasquez
-    affil: 1
+    affil: 2
   - name: Christian Cazares
-    affil: 3
-  - name: Maribel Patiño
+    affil: 1,3
+  - name: Christian Cazares
     affil: 1,3
 affiliation:
   - num: 1
-    address: The Neurosciences Graduate Program, University of California San Diego, La Jolla, CA, USA
-  - num: 2
     address: Department of Cognitive Science, University of California San Diego, La Jolla, CA, USA
+  - num: 2
+    address: The Neurosciences Graduate Program, University of California San Diego, La Jolla, CA, USA
   - num: 3
     address: Salk Institute of Biological Sciences, La Jolla, CA, USA
     
