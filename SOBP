@@ -1,0 +1,128 @@
+---
+title: Functional Brain Network Organization in Development 
+author:
+  - name: Sana A. Ali
+    affil: 1
+  - name: Damion V. Demeter
+    affil: 1
+  - name: Matthew Feigelis
+    affil: 1
+  - name: Scott Marek
+    affil: 2
+  - name: Evan Gordon
+    affil: 2
+  - name: Deanna J. Greene
+    affil: 1 
+    
+affiliation:
+  - num: 1
+    address: University of California San Diego, La Jolla, CA, USA 
+  - num: 2
+    address: Washington University School of Medicine
+    
+# authorship - make sure affil is correct
+
+column_numbers: 3
+logoright_name: "lablogo.png"
+# lablogo
+logoleft_name: "UCSD_Seal.png"
+# ucsd logo
+output: 
+  posterdown::posterdown_html:
+    self_contained: true
+knit: pagedown::chrome_print
+font_family: 'Cabin'
+titletext_fontfamily: 'Cabin'
+css: style.css
+
+primary_colour: "#68BCD6"
+accent_colour: "#035AA6"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(icons)
+library(rsvg)
+```
+
+# Background
+
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("backgroundSOBP.png")
+
+```
+
+- Resting state functional connectivity (RSFC) MRI: widely used method to investigate **functional brain networks**. 
+
+- While there has been extensive research on the organization of functional networks in adults, there has been **less focus** on organization of functional brain networks during childhood due to limited sample sizes. 
+
+- Here, we describe a detailed view of functional brain network organization using RSFC data from the **largest developmental dataset to date** with high accuracy and precision. 
+
+# Methods
+
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("methodsfinal.png")
+
+```
+
+<div align="center">This project used RSFC data released through the ABCD fast track portal.</div>
+
+- **N = 7,303 youth ages 9-10 years** across the **discovery (N = 3,615)** and **replication (N = 3,688)** sets. 
+
+- Functional networks for each dataset were identified by calculating the **Pearson correlation matrix of timecourses** from all cortical vertices, and averaging those matrices across participants.
+
+- Each cortical vertex was then assigned to a functional network using an adaptive version of the **graph theoretical community detection algorithm Infomap**.
+
+# Results
+<div align="center">
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("corrmattsfinal.png")
+
+```
+
+*Figure 1*. **Highly reproducible group average correlation matrices across the discovery and replication datasets (r = 0.99)**.
+
+```{r, echo = FALSE, out.width='100%'}
+knitr::include_graphics("infomaps7.png")
+
+```
+
+*Figure 2*. **Highly reproducible functional architecture with a normalized mutual information (NMI) of 0.88.** 
+
+Across the cortex, 9-10 yr olds demonstrated similar canonical functional networks that have been **well-characterized in adults**. </div>
+
+
+# Conclusions
+- We leveraged the largest available collection of RSFC in children to provide a **normative baseline representation of childhood functional brain network organization**. 
+
+- This can serve as a **benchmark for comparison to be used in neurodevelopmental disorder studies**, as well as to understand developmental trajectories of functional brain organization. 
+
+# Future Directions
+- To delineate the relationship of functional organization, we can investigate this network representation across other structures such as the **subcortex and cerebellum** using previously defined approaches in the lab.
+
+- Given that we now have **2 time points from ABCD**, we can compare the similarity between discovery at time point 1 and replication at time point 2. 
+
+<div align="center"> **Does the correlation change due to development?** </div>
+
+# References
+
+1. Biswal, B., Yetkin, F. Z., Haughton, V. M., & Hyde, J. S. (1995). Functional connectivity in the motor cortex of resting human brain using echo-planar MRI. Magn. Reson. Med., 34(4), 537–541.
+
+
+2. Feczko, E., Conan, G., Marek, S., Tervo-Clemmens, B., Cordova, M., Doyle, O., … Fair, D. A. (2021, bioRxiv). Adolescent Brain Cognitive Development (ABCD) Community MRI Collection and Utilities. 
+
+3. Gordon, E. M., Laumann, T. O., Marek, S., Raut, R. V., Gratton, C., Newbold, D. J., … Nelson, S. M. (2020). Default-mode network streams for coupling to language and control systems. Proc. Natl. Acad. Sci. U. S. A., 117(29), 17308–17319.
+
+4. Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., & Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage, 59(3), 2142–2154. 
+
+5. Volkow, N. D., Koob, G. F., Croyle, R. T., Bianchi, D. W., Gordon, J. A., Koroshetz, W. J., … Weiss, S. R. B. (2018). The conception of the ABCD study: From substance use to a broad NIH collaboration. Dev. Cogn. Neurosci., 32, 4–7.
+
+<div align="center">
+
+```{r, echo = FALSE, out.width='80%'}
+knitr::include_graphics("connecticons.png")
+
+```
+
+</div>
